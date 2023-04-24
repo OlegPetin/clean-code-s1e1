@@ -18,8 +18,11 @@ body {
 }
 
 @media (max-width:768px) {
-.logo { text-align: center;
+
+.logo { 
+    text-align: center;
 }
+
 }
 .todo-list {
     display: block;
@@ -30,7 +33,7 @@ body {
 .todo-list__label-task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .wrapper {
     display: flex;
